@@ -1,0 +1,33 @@
+.wedoing{
+  padding-top: 0px;
+}
+.ourteam-title,
+.wedoing-title,
+.clients-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  color: var(--secondary-title-color);
+  margin-bottom: 50px;
+}
+.wedoing-item{
+  position: relative;
+}
+.wedoing-text{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+}
