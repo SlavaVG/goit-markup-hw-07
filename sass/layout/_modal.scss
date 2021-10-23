@@ -146,32 +146,3 @@
   background-color: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
-
-.close-btn{
-  position: absolute;
-  right:10px;
-  top:10px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  fill: var(--secondary-title-color);
-  border-radius: 50%;
-  background: #00000000;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  padding: 0; /* змінює розміри "Х" на 18х18 з 16х18*/
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
-}
-.close-btn:hover,
-.close-btn:focus{
-  fill: var(--accent-color)
-}
-
-.modal-icon-cancel{
-  width: 18px;
-  height: 18px;
-}
-
