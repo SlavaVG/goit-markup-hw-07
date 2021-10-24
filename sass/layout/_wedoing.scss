@@ -1,16 +1,9 @@
 .wedoing{
   padding-top: 0px;
 }
-.ourteam-title,
-.wedoing-title,
-.clients-title{
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  color: var(--secondary-title-color);
-  margin-bottom: 50px;
-}
+.title-h2_indent--bottom{
+margin-bottom: 50px;
+} 
 .wedoing-item{
   position: relative;
 }

@@ -27,14 +27,3 @@
   width: 696px;
   margin-bottom: 30px;
 }
-.hero-btn {
-  color: var(--third-text-color);
-  background-color: var(--accent-color);
-  transition: color 240ms cubic-bezier(0.4, 0, 0.2, 1), 
-              background-color 240ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus{ 
-  color: var(--third-text-color);
-  background-color: var(--hero-button);}
-}

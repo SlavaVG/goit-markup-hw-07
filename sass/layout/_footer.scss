@@ -30,7 +30,6 @@
   margin-bottom: 20px; 
 }
 
-.footer-item,
 .footer-item:not(:last-child){
   display: block;
   margin-bottom: 9px;
@@ -40,14 +39,14 @@
   flex-wrap: wrap;
   align-items: baseline;
 }
-.footer-section-item:not(:last-child){
+.footer-section_item:not(:last-child){
   margin-right: 70px;
 }
-.footer-section-item:last-child{
+.footer-section_item:last-child{
   margin-left: auto;
   }
 
-.section-common-list{
+.section-common_list{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -56,7 +55,7 @@
   margin-top: -30px;
 }
 
-.section-common-title{
+.section-common_title{
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
@@ -65,17 +64,18 @@
   margin-bottom: 20px;
 }
 
-.section-common-item{
+.section-common_item{
   width: 44px;
   height: 44px;
   flex-basis: calc(100% / 4 - 10px);
   margin-left: 10px;
   margin-top: 30px;
-}
-.section-common-item +.section-common-item{
+
+  & +&{
   margin-left: 10px;
 } 
-.section-common-link{
+}
+.section-common_link{
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -91,12 +91,12 @@
     background-color: var(--accent-color);}
 }  
 
-.section-common-pkt{
+.section-common_pkt{
   fill: var(--primary-title-color);
   width: 20px;
   height: 20px;
 }
-.footer-mailing-title{
+.footer-mailing_title{
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -107,10 +107,10 @@ text-transform: uppercase;
 color: #FFFFFF;
 padding-bottom: 20px;
 }
-.footer-mailing-form{
+.footer-mailing_form{
 position: relative;
 }
-.footer-mailing-box{
+.footer-mailing_box{
   width: 358px;
   height: 50px;
   background-color: transparent;
@@ -131,7 +131,7 @@ position: relative;
   border: 1px solid var(--accent-color);}
 }
 
-.footer-mailing-btn{
+.footer-mailing_btn{
   width: 200px;
   height: 50px;
   padding-left: 29px;
@@ -139,7 +139,7 @@ position: relative;
   padding-right: 62px;
   padding-bottom: 10px;
 }
-.footer-mailing-icon{
+.footer-mailing_icon{
   width: 24px;
   height: 24px;
   right: 28px;
