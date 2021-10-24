@@ -5,23 +5,14 @@
   line-height: calc(31 / 26);
   color: var(--accent-color);
   transition: color 240ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus
-  color: var(--accent-color)
+    &:hover,
+    &:focus{
+    color: var(--accent-color);}
 }
 
-.logo-flex{
-  margin-right: 93px;
-}
-.logo-header-studio{
+.logo_color--dark{
   color: var(--secondary-text-color);
 }
-
-.footer-logo{
-  display: block;
-  margin-bottom: 20px; 
-}
-.logo-footer-studio{
+.logo_color--light{
   color:var(--primary-title-color);
 }
