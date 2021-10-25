@@ -4,9 +4,7 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
   top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend .dis-fl--daj;
   transition: opacity 240ms cubic-bezier(0.4, 0, 0.2, 1),
             visibility 240ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -121,9 +119,7 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend .dis-fl--daj;
   margin-bottom: 30px;
 }
 .check-text span{
@@ -132,10 +128,8 @@
   border: 2px solid var(--futer-grount);
   border-radius: 3px;
   margin-right: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  @extend .dis-fl--daj;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-checkbox:hover +.check-text span,

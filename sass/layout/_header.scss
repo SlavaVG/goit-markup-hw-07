@@ -1,19 +1,13 @@
 .header{
   border-bottom: 1px solid var(--border-color);
 }
-.header-container,
-.header-navigation,
-.header-list{
-  display: flex;
-  align-items: center;
-}
+
 .logo_indent--right{
   margin-right: 93px;
 }
 .header-kontacts-flex{
-  display: flex;
+  @extend .dis-fl--da;
   margin-left: auto;
-  align-items: center;
 }
 
 .header-link{
@@ -62,8 +56,7 @@
   fill: var(--accent-color);}  
 }
 .header-link-item{
-  display: flex;
-  align-items: center;
+  @extend .dis-fl--da;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;

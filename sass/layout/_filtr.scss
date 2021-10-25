@@ -1,7 +1,5 @@
 .filtr-list{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  @extend .dis-fl--dwj;
   margin-bottom: 50px;
 }
 .filtr-item:not(:last-child){

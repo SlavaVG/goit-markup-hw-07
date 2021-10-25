@@ -62,9 +62,7 @@
   top:10px;
   width: 30px;
   height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend .dis-fl--daj;
   cursor: pointer;
   fill: var(--secondary-title-color);
   border-radius: 50%;

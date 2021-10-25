@@ -12,9 +12,8 @@
   padding-bottom: 200px;
 }
 .hero-container{
-  display: flex;
+  @extend .dis-fl--da;
   flex-direction: column;
-  align-items: center;
 }
 .hero-title{
   font-weight: 900;

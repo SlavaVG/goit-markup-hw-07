@@ -4,9 +4,7 @@
   margin-top: 30px;
 }
 .clients-link{
-  display: flex;  
-  align-items: center;
-  justify-content: center;
+  @extend .dis-fl--daj;
   width: 170px;
   height: 92px;
   border: 1px solid var(--clients-color);
