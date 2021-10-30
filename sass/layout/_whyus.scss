@@ -1,23 +1,23 @@
-.whyus-container {
+.whyus_container {
   @extend .dis-fl_d;
 }
-.ourteam-list,
-.whyus-list,
-.wedoing-list,
-.clients-list {
+.ourteam_list,
+.whyus_list,
+.wedoing_list,
+.clients_list {
   @extend .dis-fl_d;
   @extend .dis-fl_w;
   margin-left: -30px;
   margin-top: -30px;
 }
 .wedoing_item,
-.ourteam-item,
-.whyus-item {
+.ourteam_item,
+.whyus_item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
-.whyus-item-pkt {
+.whyus_item-pkt {
   height: 120px;
   background-color: var(--filter-button-color);
   border-radius: 4px;
@@ -26,11 +26,11 @@
   @extend .dis-fl_j;
   margin-bottom: 30px;
 }
-.whyus-pkt-item {
+.whyus_pkt-item {
   width: 70px;
   height: 70px;
 }
-.whyus-item-header {
+.whyus_item-header {
   font-weight: 700;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -38,7 +38,7 @@
   color: var(--secondary-title-color);
   margin-bottom: 10px;
 }
-.whyus-item-text {
+.whyus_item-text {
   line-height: 1.71; /* or 171% */
   color: var(--primary-text-color);
 }
