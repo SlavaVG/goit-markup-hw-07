@@ -4,7 +4,10 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
   top: 0;
-  @extend .dis-fl--daj;
+  @extend .dis-fl_d;
+  @extend .dis-fl_a;
+  @extend .dis-fl_j;
+
   transition: opacity 240ms cubic-bezier(0.4, 0, 0.2, 1),
             visibility 240ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -119,7 +122,9 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  @extend .dis-fl--daj;
+  @extend .dis-fl_d;
+  @extend .dis-fl_a;
+  @extend .dis-fl_j;
   margin-bottom: 30px;
 }
 .check-text span{
@@ -128,7 +133,9 @@
   border: 2px solid var(--futer-grount);
   border-radius: 3px;
   margin-right: 8px;
-  @extend .dis-fl--daj;
+  @extend .dis-fl_d;
+  @extend .dis-fl_a;
+  @extend .dis-fl_j;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

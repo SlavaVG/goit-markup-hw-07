@@ -35,7 +35,8 @@
   margin-bottom: 9px;
 }
 .footer-section{
-  @extend .dis-fl--dw;
+  @extend .dis-fl_d;
+  @extend .dis-fl_w;
   align-items: baseline;
 }
 .footer-section_item:not(:last-child){
@@ -46,7 +47,10 @@
   }
 
 .section-common_list{
-  @extend .dis-fl--dwaj;
+  @extend .dis-fl_d;
+  @extend .dis-fl_w;
+  @extend .dis-fl_a;
+  @extend .dis-fl_j;
   margin-left: -10px;
   margin-top: -30px;
 }
@@ -77,7 +81,10 @@
   border-radius: 50%;
   display: block;
   background-color: rgba(255, 255, 255, 0.1);
-  // @extend .dis-fl--daj;  /*не працює*/
+  /*не працює*/
+  // @extend .dis-fl_d; /*не працює*/
+  // @extend .dis-fl_a; /*не працює*/
+  // @extend .dis-fl_j; /*не працює*/
   display: flex;
   align-items: center;
   justify-content: center;

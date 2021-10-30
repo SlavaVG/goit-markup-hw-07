@@ -4,7 +4,9 @@
   margin-top: 30px;
 }
 .clients-link{
-  @extend .dis-fl--daj;
+  @extend .dis-fl_d;
+  @extend .dis-fl_a;
+  @extend .dis-fl_j;
   width: 170px;
   height: 92px;
   border: 1px solid var(--clients-color);

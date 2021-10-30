@@ -62,7 +62,9 @@
   top:10px;
   width: 30px;
   height: 30px;
-  @extend .dis-fl--daj;
+  @extend .dis-fl_d;
+  @extend .dis-fl_a;
+  @extend .dis-fl_j;
   cursor: pointer;
   fill: var(--secondary-title-color);
   border-radius: 50%;

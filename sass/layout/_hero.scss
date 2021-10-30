@@ -12,7 +12,8 @@
   padding-bottom: 200px;
 }
 .hero-container{
-  @extend .dis-fl--da;
+  @extend .dis-fl_d;
+  @extend .dis-fl_a;
   flex-direction: column;
 }
 .hero-title{
